@@ -1,14 +1,5 @@
 // change mode to capture
-//MMV(6,176,5)
-//ACW(GETID("OAuth & OIDC 入門編 by #authlete - YouTube - Google Chrome","Chrome_WidgetWin_1"),0,0,960,1040,0)
-//BTN(LEFT,DOWN,0,176,1000)
-
-ACW(GETID("代表的な AI 構築方法 - skillupai - Google Chrome","Chrome_WidgetWin_1"),0,0,960,1040,0)
-//BTN(LEFT,CLICK,190,1066,110)
 BTN(LEFT,DOWN,190,1066,5)
-
-//MMV(65,285,5)
-//BTN(LEFT,UP,65,284,5)
 BTN(LEFT,UP,65,290,5)
 MMV(265,361,5)
 KBD(VK_RCTRL,DOWN,5)
@@ -19,25 +10,16 @@ KBD(VK_RSHIFT,UP,5)
 KBD(VK_1,UP,5)
 
 // set start position
-//MMV(11,181,5)
-//BTN(LEFT,DOWN,11,180,100)
 BTN(LEFT,DOWN,6,347,100)
 
 // set end position
-//MMV(875,650,5)
-//BTN(LEFT,UP,875,635,5)
-//BTN(LEFT,UP,875,676,5)
 BTN(LEFT,UP,939,866,5)
 
 // capture
-//MMV(266,361,5)
-ACW(GETID("Setuna Capture Screen","#32770"),0,0,1920,1080,0)
-//MMV(865,627,5)
 BTN(RIGHT,CLICK,865,626,100)
 KBD(VK_X,CLICK,100)
 
 // paste to Inkdrop
-ACW(GETID("Inkdrop","Chrome_WidgetWin_1"),960,0,960,1040,0)
 BTN(LEFT,CLICK,1346,907,5)
 KBD(VK_CTRL,DOWN,5)
 KBD(VK_V,DOWN,5)
